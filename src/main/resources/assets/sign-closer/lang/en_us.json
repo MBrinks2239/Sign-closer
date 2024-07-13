@@ -1,0 +1,6 @@
+{
+  "key.signcloser.toggle": "Toggle Sign closer",
+  "category.signcloser": "Sign closer Controls",
+  "message.signcloser.enabled": "Sign closer Enabled",
+  "message.signcloser.disabled": "Sign closer Disabled"
+}

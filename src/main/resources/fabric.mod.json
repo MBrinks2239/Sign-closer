@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "sign-closer",
+	"version": "${version}",
+	"name": "Sign closer",
+	"description": "Disable the text edit gui with a hotkey",
+	"authors": [
+		"Stellar"
+	],
+	"contact": {
+		"sources": "https://github.com/MBrinks2239/Sign-closer"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sign-closer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"stellar.signcloser.SignCloser"
+		]
+	},
+	"mixins": [
+		"sign-closer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
